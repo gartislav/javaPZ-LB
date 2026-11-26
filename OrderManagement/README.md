@@ -1,0 +1,2 @@
+# OrderManagement
+JDK 21. Open root pom.xml in IntelliJ IDEA, reload Maven, run Main in threads. Maven Lifecycle → clean, package. Expected: 10 saved orders, 5 electronics, 5 clothing, one invalid order rejected. Data and thread order vary. Storage is in memory. JavaFaker is an automatic JPMS module (javafaker).
